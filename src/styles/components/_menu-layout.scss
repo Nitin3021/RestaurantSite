@@ -1,0 +1,16 @@
+.menu-layout-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.menu-layout-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $s-size 0;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+}
