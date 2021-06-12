@@ -4,9 +4,10 @@ const HomePage = () => (
     <div className="box-layout">
         <h1 className="text-homepage-header">Welcome</h1>
         <p>Take a look around!</p>
+
         <div className="square">
             <img src="/images/Food_item_1.png" />
-            <p className="menu-img">Noodles cooked with soy sauce along</p>
+            <p className="menu-txt">Pancit is a Filipino dish that usually consists of noodles cooked with soy sauce </p>
         </div>
 
         <div className="square">

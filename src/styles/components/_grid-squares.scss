@@ -1,17 +1,24 @@
 .square {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    // flex-wrap: wrap;
+    justify-content: space-around;
     width: 50%;
     padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin: 10px 10px 10px 10px;
+    padding-left: 10%;
+    margin: 10px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
+    // white-space: nowrap;
+    // align-items: center;
+    // justify-content: space-around;
 }
 
-.menu-img {
-    float: right;
+.menu-txt {
+    margin: 10px;
+    font-size: 2rem;
+    white-space: nowrap;
+    // font-weight: bold;
 }
 
 .img_1-1{background-image:url('/images/Food_item_1.png');}
