@@ -1,17 +1,32 @@
 .square {
-    display: flex;
-    // flex-wrap: wrap;
-    justify-content: space-around;
-    width: 50%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    padding-left: 10%;
-    margin-left: 10%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
-    // white-space: nowrap;
-    // align-items: center;
+    // display: flex;
+    // // flex-wrap: wrap;
     // justify-content: space-around;
+    // width: 50%;
+    // padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    // padding-left: 10%;
+    // margin-left: 10%;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
+    // // white-space: nowrap;
+    // // align-items: center;
+    // // justify-content: space-around;
+
+    display: flex;
+
+    img {
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+        width: 30%;
+        border-radius: 25px;
+    }
+
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    overflow-wrap: normal;
 }
 
 .menu-txt {
@@ -20,15 +35,3 @@
     white-space: nowrap;
     // font-weight: bold;
 }
-
-.img_1-1{background-image:url('/images/Food_item_1.png');}
-.img_1-2{background-image:url('/images/Food_item_2.jfif');}
-.img_1-3{background-image:url('/images/Food_item_3.jpg');}
-
-.img_2-1{background-image:url('/images/Food_item_4.jfif');}
-.img_2-2{background-image:url('/images/Food_item_5.jfif');}
-.img_2-3{background-image:url('/images/Food_item_6.jfif');}
-
-.img_3-1{background-image:url('/images/Food_item_7.jpg');}
-.img_3-2{background-image:url('/images/Food_item_8.jpg');}
-.img_3-3{background-image:url('/images/Food_item_9.jpg');}
