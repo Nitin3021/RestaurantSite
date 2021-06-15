@@ -1,5 +1,18 @@
 .text-homepage-header {
-    color: $blue;
+    h1 {
+        color: rgba(0, 0, 0, 0.63);
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        color: $off-white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
 }
 
 .text-description-decor {

@@ -1,16 +1,18 @@
 .menu-layout-container {
+    background: lightgray;
+    background: -webkit-linear-gradient(#fefffe, #4c4d4d);
+    background:    -moz-linear-gradient(#fefffe, #4c4d4d);
+    background:         linear-gradient(#fefffe, #4c4d4d);
+    border-top: 1px solid grey;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
 .menu-layout-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: black;
     padding: $s-size 0;
     font-size: $font-size-large;
-    font-weight: 300;
-    line-height: 1;
+    font-weight: bold;
     text-decoration: none;
 }
