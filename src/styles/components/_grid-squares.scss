@@ -1,18 +1,4 @@
 .square {
-    // display: flex;
-    // // flex-wrap: wrap;
-    // justify-content: space-around;
-    // width: 50%;
-    // padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    // padding-left: 10%;
-    // margin-left: 10%;
-    // background-position: center center;
-    // background-repeat: no-repeat;
-    // background-size: cover; /* you change this to "contain" if you don't want the images to be cropped */
-    // // white-space: nowrap;
-    // // align-items: center;
-    // // justify-content: space-around;
-
     display: flex;
     flex-direction: row;
     margin: 20px 20px;
@@ -23,20 +9,21 @@
         margin-right: auto;
         width: 20%;
         border-radius: 25px;
-        border-style: solid;
+        border: 2px solid black;
         margin: 20px 20px;
     }
 
     p {
         background-color: rgb(153, 149, 149);
-        background: -webkit-linear-gradient(#4c4d4d, #cbcecb);
+        background: -webkit-linear-gradient(0deg, #4c4d4d, #abadab) no-repeat;
+        background:    -moz-linear-gradient(0deg, #4c4d4d, #abadab) no-repeat;
+        background:         linear-gradient(0deg, #4c4d4d, #abadab) no-repeat;
         border-radius: 20px;
-        // background-blend-mode:overlay;
-        color:white;
+        color:black;
         font-size: 30px;
-        font-weight: bold;
         font-style: italic;
+        font-weight: bold;
+        opacity: 0.7;
         overflow-wrap: normal;
-        opacity: 0.6;
     }
 }
