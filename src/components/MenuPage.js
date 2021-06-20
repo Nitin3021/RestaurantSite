@@ -2,6 +2,10 @@ import React from 'react';
 
 const MenuPage = () => (
     <div className="box-layout">
+        <div className="text-menupage-container">
+            <h1 className="text-menupage-h1-left">Menu</h1> 
+            <h1 className="text-menupage-h1-right">Items</h1>
+        </div>
 
         <div className="square">
             <img src="/images/Food_item_1.jpg" />

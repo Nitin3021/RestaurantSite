@@ -6,11 +6,12 @@ import HomePage from '../components/HomePage';
 import ContactPage from '../components/ContactPage';
 import MenuPage from '../components/MenuPage';
 import MenuItemPage from '../components/MenuItemPage';
+import Footer from '../components/Footer';
 
 const AppRouter = () => (
     <BrowserRouter>
         <div>
-            <Header/>
+            <Header />
             <Switch>
                 <Route path="/" component={HomePage} exact={true} />
                 <Route path="/menupage" component={MenuPage} exact={true} />
@@ -18,6 +19,7 @@ const AppRouter = () => (
                 <Route path="/contact" component={ContactPage} />
                 <Route component={NotFoundPage} />
             </Switch>
+            <Footer />
         </div>
     </BrowserRouter>
 );

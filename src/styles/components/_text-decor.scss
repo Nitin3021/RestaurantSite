@@ -4,13 +4,70 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
     h1 {
-        color: rgba(0, 0, 0, 0.808);
-        font-size: 50px;
+        animation: right_to_left 3s ease;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 5rem;
+
+        @keyframes right_to_left {
+            from {
+              margin-left: 100%;
+            }
+            to {
+              margin-left: 0;
+            }
+          }
     }
 
     p {
-        color: rgba(54, 51, 51, 0.9);
+        animation: left_to_right 3s ease;
+        color: rgba(50, 50, 50, 0.9);
         font-size: 3rem;
+
+        @keyframes left_to_right {
+            from {
+              margin-left: -100%;
+            }
+            to {
+              margin-left: 0;
+            }
+          }
+    }
+}
+
+.text-menupage-container {
+  display: flex;
+}
+
+.text-menupage-h1-left {
+  align-items: center;
+  animation: left_to_right 3s ease;
+  color: rgba(50, 50, 50, 0.9);
+  font-size: 3rem;
+  margin-right: 4px;
+
+  @keyframes left_to_right {
+      from {
+        margin-left: -100%;
+      }
+      to {
+        margin-left: 0;
+      }
+    }
+}
+
+.text-menupage-h1-right {
+  align-items: center;
+  animation: right_to_left 3s ease;
+  color: rgba(50, 50, 50, 0.9);
+  font-size: 3rem;
+
+  @keyframes right_to_left {
+      from {
+        margin-left: 100%;
+      }
+      to {
+        margin-left: 0;
+      }
     }
 }
 
