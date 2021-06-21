@@ -2,8 +2,9 @@ import React from 'react';
 
 const ContactPage = () => (
     <div className="box-layout">
-        <div className="text-homepage-header">
-            <h1>Contact Page</h1>
+        <div className="text-menupage-container">
+            <h1 className="text-menupage-h1-left">Contact</h1>
+            <h1 className="text-menupage-h1-right">Page</h1>
         </div>
         <div className="contact-text-decor">
             <p>Email: 123@123.com</p>
