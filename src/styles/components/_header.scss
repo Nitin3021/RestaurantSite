@@ -10,13 +10,19 @@
 }
 
 .header__title {
-    background: rgb(236, 234, 234);
     background: -webkit-linear-gradient(#57531d, #648880);
     background:    -moz-linear-gradient(#57531d, #648880);
     background:         linear-gradient(#57531d, #648880);
+    border: 2px solid darken($color: #6d6c6c4d, $amount: 0);
+    border-radius: 2px;
+    color: $dark-blue;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: $dark-blue;
     text-align: center;
     overflow: hidden;
+}
+
+.header-homepage__title {
+    color: $dark-blue;
+    text-decoration: none;
 }

@@ -1,12 +1,12 @@
 .text-homepage-header {
     text-align: center;
-    font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
     
     h1 {
         animation: right_to_left 3s ease;
         color: rgba(0, 0, 0, 0.8);
-        font-size: 5rem;
+        font-size: $xl-size;
 
         @keyframes right_to_left {
             from {
@@ -21,7 +21,7 @@
     p {
         animation: left_to_right 3s ease;
         color: rgba(50, 50, 50, 0.9);
-        font-size: 3rem;
+        font-size: $l-size;
 
         @keyframes left_to_right {
             from {
@@ -46,7 +46,7 @@
 .text-menupage-h1-left {
   animation: left_to_right 3s ease;
   color: rgba(50, 50, 50, 0.9);
-  font-size: 5rem;
+  font-size: $xl-size;
   padding-right: 5px;
 
   @keyframes left_to_right {
@@ -62,7 +62,7 @@
 .text-menupage-h1-right {
   animation: right_to_left 3s ease;
   color: rgba(50, 50, 50, 0.9);
-  font-size: 5rem;
+  font-size: $xl-size;
   padding-left: 5px;
 
   @keyframes right_to_left {
@@ -76,8 +76,8 @@
 }
 
 .contact-text-decor {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large;
-
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
 }

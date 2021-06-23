@@ -19,7 +19,7 @@ const HomePage = () => {
         <div className="box-layout">
 
             <div className="text-homepage-header">
-                <h1>Welcome</h1>
+                <h1>|Welcome|</h1>
                 <p>Take a look around!</p>
             </div>
 
@@ -56,13 +56,13 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="each-fade">
-                        <h2 className="slide-text">Spageee</h2>
+                        <h2 className="slide-text">Yummy Spag</h2>
                         <div className="image-container">
                             <img className="slide-style" src={fadeImages[5]} />
                         </div>
                     </div>
                     <div className="each-fade">
-                        <h2 className="slide-text">Pizza</h2>
+                        <h2 className="slide-text">Pizza Bianca</h2>
                         <div className="image-container">
                             <img className="slide-style" src={fadeImages[6]} />
                         </div>

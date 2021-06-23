@@ -39,7 +39,7 @@ const MenuPage = () => (
 
         <div className="square">
             <img src="/images/Food_item_7.jpg" />
-            <p>Pizza bianca, or 'white pizza', is nothing more than a thinly baked dough with olive oil and sea salt.</p>
+            <p>Pizza bianca, or 'white pizza', is nothing more than a thinly baked dough with olive oil and sea salt. The simplest form of pizza bianca is dressed simply with olive oil, rosemary, and salt. Sometimes a generous pizzeria will make these, cut them up, and present them as something to nibble on while you wait.</p>
         </div>
 
         <div className="square">

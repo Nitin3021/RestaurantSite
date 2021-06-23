@@ -4,20 +4,20 @@
     margin: 20px 20px;
 
     img {
+        border-radius: 25px;
+        border: 2px solid black;
         display: block;
+        margin: 20px 20px;
         margin-left: 20px;
         margin-right: auto;
         width: 20%;
-        border-radius: 25px;
-        border: 2px solid black;
-        margin: 20px 20px;
     }
 
     p {
-        background-color: rgb(153, 149, 149);
         background: -webkit-linear-gradient(0deg, #4c4d4d, #abadab) no-repeat;
         background:    -moz-linear-gradient(0deg, #4c4d4d, #abadab) no-repeat;
         background:         linear-gradient(0deg, #4c4d4d, #abadab) no-repeat;
+        background-color: rgb(153, 149, 149);
         border-radius: 20px;
         color:black;
         font-size: 30px;
