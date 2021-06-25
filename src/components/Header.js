@@ -5,7 +5,10 @@ const Header = () => (
     <div className="header__title">
         <header>
             <NavLink to="/" activeClassName="is-active" className="header-homepage__title">
-                <h1>Talaga Restaurant</h1>
+                <div className="header-homepage__container">
+                    <img className="logo-image" src='/images/logo.png' />
+                    <h1 className="header_tilt">Talaga Restaurant</h1>
+                </div>
             </NavLink>
             <div className="menu-layout-container">
                 <NavLink to="/" activeClassName="is-active" className="menu-layout-item" exact={true} >Home</NavLink>
