@@ -5,9 +5,11 @@
   "author": "Nitin Pillai",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
+    "build:prod": "webpack --mode=production --env production",
     "build": "webpack",
-    "dev-server": "webpack serve --mode=development"
+    "serve": "live-server public/",
+    "dev-server": "webpack serve --mode=development",
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
