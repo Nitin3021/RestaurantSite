@@ -1,5 +1,5 @@
 {
-  "name": "expensify",
+  "name": "resto",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Nitin Pillai",
@@ -7,8 +7,9 @@
   "scripts": {
     "build:prod": "webpack --mode=production --env production",
     "build": "webpack",
-    "serve": "live-server public/",
     "dev-server": "webpack serve --mode=development",
+    "serve": "live-server public/",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
