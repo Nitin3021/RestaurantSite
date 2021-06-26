@@ -46,16 +46,24 @@
     text-decoration: none;
 }
 
-.header_tilt {
-    -webkit-transform: rotate(5deg); 
-    -moz-transform: rotate(5deg); 
-    -ms-transform: rotate(5deg); 
-    -o-transform: rotate(5deg); 
-    transform: rotate(5deg);
+.header_tilt_left {
+    -webkit-transform: rotate(-21deg); 
+    -moz-transform: rotate(-21deg); 
+    -ms-transform: rotate(-21deg); 
+    -o-transform: rotate(-21deg); 
+    transform: rotate(-21deg);
+}
+
+.header_tilt_right {
+    -webkit-transform: rotate(21deg); 
+    -moz-transform: rotate(21deg); 
+    -ms-transform: rotate(21deg); 
+    -o-transform: rotate(21deg); 
+    transform: rotate(21deg);
 }
 
 .logo-image {
     margin-right: 25px;
-    padding-left: 50px;
+    margin-left: 25px;
     width: 5%;
 }

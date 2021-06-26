@@ -6,8 +6,9 @@ const Header = () => (
         <header>
             <NavLink to="/" activeClassName="is-active" className="header-homepage__title">
                 <div className="header-homepage__container">
+                    <h1 className="header_tilt_left">Talaga</h1>
                     <img className="logo-image" src='/images/logo.png' />
-                    <h1 className="header_tilt">Talaga Restaurant</h1>
+                    <h1 className="header_tilt_right">Resto</h1>
                 </div>
             </NavLink>
             <div className="menu-layout-container">
