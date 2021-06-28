@@ -66,4 +66,8 @@
     margin-right: 25px;
     margin-left: 25px;
     width: 5%;
+
+    @media (max-width: $desktop-breakpoint - 0.1rem) {
+        width: 25%;
+    }
 }
