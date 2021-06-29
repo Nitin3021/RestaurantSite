@@ -11,13 +11,13 @@
 
 .header__title {
     background: -webkit-linear-gradient(#57531d, #648880);
-    background:    -moz-linear-gradient(#57531d, #648880);  
-    background:         linear-gradient(#57531d, #648880);
+    background: -moz-linear-gradient(#57531d, #648880);
+    background: linear-gradient(#57531d, #648880);
     border: 2px solid darken($color: #6d6c6c4d, $amount: 0);
     border-radius: 2px;
     color: $dark-blue;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-align: center;
     overflow: hidden;
 }
@@ -29,16 +29,30 @@
     img:hover {
         animation: shakeImg 1s;
         animation-iteration-count: 2;
-     }
-     @keyframes shakeImg {
-        0% { transform: translate(1px, 1px) rotate(5deg); }
-        20% { transform: translate(-3px, 0px) rotate(10deg); }
-        30% { transform: translate(3px, 2px) rotate(-10deg); }
-        50% { transform: translate(-1px, 2px) rotate(-20deg); }
-        70% { transform: translate(3px, 1px) rotate(-25deg); }
-        90% { transform: translate(1px, 2px) rotate(10deg); }
-        100% { transform: translate(1px, -2px) rotate(-10deg); }
-     }
+    }
+    @keyframes shakeImg {
+        0% {
+            transform: translate(1px, 1px) rotate(5deg);
+        }
+        20% {
+            transform: translate(-3px, 0px) rotate(10deg);
+        }
+        30% {
+            transform: translate(3px, 2px) rotate(-10deg);
+        }
+        50% {
+            transform: translate(-1px, 2px) rotate(-20deg);
+        }
+        70% {
+            transform: translate(3px, 1px) rotate(-25deg);
+        }
+        90% {
+            transform: translate(1px, 2px) rotate(10deg);
+        }
+        100% {
+            transform: translate(1px, -2px) rotate(-10deg);
+        }
+    }
 }
 
 .header-homepage__title {
@@ -47,18 +61,18 @@
 }
 
 .header_tilt_left {
-    -webkit-transform: rotate(-21deg); 
-    -moz-transform: rotate(-21deg); 
-    -ms-transform: rotate(-21deg); 
-    -o-transform: rotate(-21deg); 
+    -webkit-transform: rotate(-21deg);
+    -moz-transform: rotate(-21deg);
+    -ms-transform: rotate(-21deg);
+    -o-transform: rotate(-21deg);
     transform: rotate(-21deg);
 }
 
 .header_tilt_right {
-    -webkit-transform: rotate(21deg); 
-    -moz-transform: rotate(21deg); 
-    -ms-transform: rotate(21deg); 
-    -o-transform: rotate(21deg); 
+    -webkit-transform: rotate(21deg);
+    -moz-transform: rotate(21deg);
+    -ms-transform: rotate(21deg);
+    -o-transform: rotate(21deg);
     transform: rotate(21deg);
 }
 

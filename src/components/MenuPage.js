@@ -3,8 +3,10 @@ import React from 'react';
 const MenuPage = () => (
     <div className="box-layout">
         <div className="text-menupage-container">
-            <h1 className="text-menupage-h1-left">Menu</h1> 
+            <img className="image-homepage-header" src="/images/chopsticks_right.png" />
+            <h1 className="text-menupage-h1-left">Menu</h1>
             <h1 className="text-menupage-h1-right">Items</h1>
+            <img className="image-homepage-header" src="/images/chopsticks_left.png" />
         </div>
 
         <div className="square">

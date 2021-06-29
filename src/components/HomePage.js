@@ -19,7 +19,11 @@ const HomePage = () => {
         <div className="box-layout">
 
             <div className="text-homepage-header">
-                <h1>|Welcome|</h1>
+                <div className="header-welcome-container" >
+                    <img className="image-homepage-header" src="/images/fork.png" />
+                    <h1>Welcome</h1>
+                    <img className="image-homepage-header" src="/images/spoon.png" />
+                </div>
                 <p>Take a look around!</p>
             </div>
 
