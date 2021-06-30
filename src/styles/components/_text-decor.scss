@@ -41,6 +41,10 @@
 
 .image-homepage-header {
   width: 5%;
+  @media (max-width: $desktop-breakpoint - 0.1rem) {
+    width: 20%;
+    overflow: hidden;
+  }
 }
 
 .text-menupage-container {
