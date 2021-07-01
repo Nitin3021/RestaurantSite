@@ -1,5 +1,4 @@
 .menu-layout-container {
-    background: lightgray;
     background: -webkit-linear-gradient(#fefffe, #4c4d4d);
     background: -moz-linear-gradient(#fefffe, #4c4d4d);
     background: linear-gradient(#fefffe, #4c4d4d);
@@ -13,6 +12,10 @@
     color: black;
     font-size: $font-size-large;
     font-weight: bold;
-    padding: $s-size 0;
+    padding: $s-size 14.9%;
     text-decoration: none;
+
+    @media (max-width: $desktop-breakpoint - 0.1rem) {
+        padding: $s-size 9.2%;
+    }
 }
