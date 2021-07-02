@@ -13,6 +13,8 @@
     background: -webkit-linear-gradient(#57531d, #648880);
     background: -moz-linear-gradient(#57531d, #648880);
     background: linear-gradient(#57531d, #648880);
+    background: -ms-linear-gradient(#57531d, #648880);
+    background: -o-linear-gradient(#57531d, #648880);
     border: 2px solid darken($color: #6d6c6c4d, $amount: 0);
     border-radius: 2px;
     color: $dark-blue;
