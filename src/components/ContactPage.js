@@ -9,8 +9,9 @@ const ContactPage = () => (
             <img className="image-homepage-header" src="/images/spoon.png" />
         </div>
         <div className="contact-text-decor">
-            <p>Email: 123@123.com</p>
+            <p>Email: talagaResto@email.com</p>
             <p>Landline: 016794325864</p>
+            <p>Contact Form</p>
         </div>
     </div>
 );
