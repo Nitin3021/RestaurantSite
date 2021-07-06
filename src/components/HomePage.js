@@ -1,6 +1,5 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
 
 const fadeImages = [
     '/images/Food_item_1.jpg',

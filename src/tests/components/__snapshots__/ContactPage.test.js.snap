@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ContactPage correctly 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="text-menupage-container"
+  >
+    <img
+      className="image-homepage-header"
+      src="/images/fork.png"
+    />
+    <h1
+      className="text-menupage-h1-left"
+    >
+      Contact
+    </h1>
+    <h1
+      className="text-menupage-h1-right"
+    >
+      Page
+    </h1>
+    <img
+      className="image-homepage-header"
+      src="/images/spoon.png"
+    />
+  </div>
+  <div
+    className="contact-text-decor"
+  >
+    <p>
+      Email: talagaResto@email.com
+    </p>
+    <p>
+      Landline: 016794325864
+    </p>
+    <p>
+      Contact Form
+    </p>
+  </div>
+</div>
+`;

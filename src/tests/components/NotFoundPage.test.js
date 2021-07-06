@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import NotFoundPage from '../components/NotFoundPage';
-import { expect } from '@jest/globals';
+import NotFoundPage from '../../components/NotFoundPage';
 
 test('Should render NotFoundPage correctly', () => {
     const wrapper = shallow(<NotFoundPage />);

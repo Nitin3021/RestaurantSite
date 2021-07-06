@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<div
+  className="header__title"
+>
+  <header>
+    <NavLink
+      activeClassName="is-active"
+      className="header-homepage__title"
+      to="/"
+    >
+      <div
+        className="header-homepage__container"
+      >
+        <h1
+          className="header_tilt_left"
+        >
+          Talaga
+        </h1>
+        <img
+          className="logo-image"
+          src="/images/logo.png"
+        />
+        <h1
+          className="header_tilt_right"
+        >
+          Resto
+        </h1>
+      </div>
+    </NavLink>
+    <div
+      className="menu-layout-container"
+    >
+      <NavLink
+        activeClassName="is-active"
+        className="menu-layout-item"
+        exact={true}
+        to="/"
+      >
+        Home
+      </NavLink>
+      <NavLink
+        activeClassName="is-active"
+        className="menu-layout-item"
+        exact={true}
+        to="/menupage"
+      >
+        Menu
+      </NavLink>
+      <NavLink
+        activeClassName="is-active"
+        className="menu-layout-item"
+        to="/contact"
+      >
+        Contact
+      </NavLink>
+    </div>
+  </header>
+</div>
+`;
