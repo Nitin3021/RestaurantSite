@@ -10,8 +10,8 @@ const ContactPage = () => (
         </div>
         <div className="contact-text-decor">
             <p>Email: talagaResto@email.com</p>
-            <p>Landline: 016794325864</p>
-            <p>Contact Form</p>
+            <p>Landline: 8956652358</p>
+            <p>Contact Form (Coming soon!)</p>
         </div>
     </div>
 );
