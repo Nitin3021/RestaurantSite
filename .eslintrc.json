@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "airbnb",
+        "prettier"
+    ],
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-console": "warn",
+        "jsx-a11y/alt-text": "off",
+        "react/jsx-filename-extension": "off",
+        "react/no-unescaped-entities": "off",
+        "no-undef": "off"
+    },
+    "parser": "babel-eslint"
+}
+

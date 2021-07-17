@@ -13,8 +13,7 @@ const fadeImages = [
     '/images/Food_item_9.jpg'
 ];
 
-const HomePage = () => {
-    return (
+const HomePage = () => (
         <div className="box-layout">
 
             <div className="text-homepage-header">
@@ -86,7 +85,6 @@ const HomePage = () => {
             </div>
 
         </div>
-    )
-};
+    );
 
 export default HomePage;
